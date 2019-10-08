@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+            android:id="@+id/kelas"
+            android:title="@string/kelas"
+            android:icon="@drawable/ic_kelas"
+    />
+    <item
+    android:id="@+id/tugas"
+    android:title="@string/task"
+    android:icon="@drawable/ic_task"
+    />
+
+    <item
+            android:id="@+id/pesan"
+            android:title="@string/pesan"
+            android:icon="@drawable/ic_message"
+    />
+
+</menu>

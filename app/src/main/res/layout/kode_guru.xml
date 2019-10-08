@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/group1">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Kelas"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/futura"
+            android:textColor="@color/putih"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginHorizontal="70dp"
+            android:textSize="25sp"
+            android:textColor="@color/biru"
+            android:text="KODE KELAS"
+            android:fontFamily="@font/futura"
+            android:paddingHorizontal="10dp"
+            android:id="@+id/kode_guru"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/kode_guru"
+            android:layout_marginBottom="-85dp"
+            android:fontFamily="@font/futura"
+            android:text="Sign In"
+            android:textColor="@color/putih"
+            android:textSize="20sp"
+            android:layout_alignRight="@+id/kode_guru"
+            android:id="@+id/signin"
+            android:clickable="false"/>
+
+</RelativeLayout>

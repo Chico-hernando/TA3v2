@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/group2"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Kode"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/futura"
+            android:textColor="@color/putih"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_field"
+            android:gravity="center"
+            android:width="300dp"
+            android:height="50dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginHorizontal="70dp"
+            android:textSize="25sp"
+            android:textColor="@color/biru"
+            android:hint="KODE KELAS"
+            android:fontFamily="@font/futura"
+            android:paddingHorizontal="10dp"
+            android:id="@+id/kode_siswa"
+            />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/kode_siswa"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginBottom="-85dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/futura"
+            android:paddingHorizontal="35dp"
+            android:text="Masuk"
+            android:textColor="@color/putih"
+            android:textSize="25sp"
+            android:id="@+id/masuk_siswa"/>
+
+</RelativeLayout>

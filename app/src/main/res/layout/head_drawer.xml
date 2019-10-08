@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/birumd"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:paddingHorizontal="15dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:paddingTop="70dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/logo2"
+            android:id="@+id/profil"
+            android:layout_marginTop="10dp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:id="@+id/namau"
+            android:fontFamily="@font/futura"
+            android:textColor="@color/putih"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Sekolah"
+            android:id="@+id/sekolu"
+            android:textColor="@color/putih"
+            android:fontFamily="@font/futura"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

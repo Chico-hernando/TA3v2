@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="655dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"
+              android:text="@string/kelas"
+              android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+              android:id="@+id/textViewKelas"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:id="@+id/pesan"
+            android:background="@drawable/input"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentBottom="true"
+            android:hint="ketik Pesan"
+            android:imeOptions="actionSend|flagNoEnterAction"
+            android:paddingRight="20dp"/>
+    <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/ic_arrow_forward_black_24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingBottom="24dp" />
+
+</RelativeLayout>
